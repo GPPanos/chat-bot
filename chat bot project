@@ -1,0 +1,68 @@
+import datetime
+import random
+pick_age=random.uniform(-8282, -0.9877)
+class Assistant:
+    def _init_(self, name, age):
+        self.name=name
+        self.age=age
+        Py = Assistant("Py", pick_age)
+        print("Hello, I am",Py.name,"Your virtual python assistant. I am",Py.age, "years old! \n")
+        print("I'm a computer, I'm a computer guy,everythinkg made out of buttons and wires,i'd like to show you, inside my digital life, so lets go! \n(DHMIS referense)")
+        print("enter your command: ")
+
+        AVAILABLE COMMANDS :
+        Time
+        NameErrorDATE
+        TELL ME A JOKE
+        HELLO
+        WHAT IS THE BEST LANGUAGES
+        CALCULATOR
+
+        user= input()
+        def joke():
+            jokes=["Siri or Google? Ha neither! PY",Who is your assistant like? PI! 3.14159265358979323846264338327090050288419716939!", knock knock who's there? Doctor Doctor who" ]
+            pick_joke=random.choice(jokes)
+            print(pick_joke)
+            def get_time():
+                time=datetime.datetime.now().time()
+                print("the current time is", date)
+                def hello():
+                    print(Greetings from Py!")
+                    def language():
+                        print("Easy one! python!")
+                        def calculator():
+                            num1 = input()
+                            num1=float(num1)
+                            op=input()
+                            num2=input()
+                            num2=float(num2)
+                            if op == '+':
+                                print(num1+num2)
+                            elif op=='-':
+                                print(num1-num2)
+                            elif op == '*':
+                                print(num1*num2)
+                            elif op == '/':
+                                print(num1/num2)
+                            else :
+                                print("Invalid input")
+                                def name():
+                                    print("My name is Py!")
+                                    if user =="time":
+                                        get_time()
+                                    elif user == 'name':
+                                        name()
+                                    elif user == 'what is the best language':
+                                        language()
+                                        elif user == 'date':
+                                        get_date()
+                                    elif user == 'tell me a joke':
+                                        joke()
+                                    elif user == 'calculator':
+                                        calculator ()
+                                    else:
+                                        print("ERROR 5848 INVALID COMMAND")
+                                        print("\n-------------------------")
+                                        print(TELLme if there are any other command you would like,thanks for playing!)
+                                        print("---------------------------")
+                                     
